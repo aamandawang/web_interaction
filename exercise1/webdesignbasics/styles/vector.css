@@ -1,0 +1,22 @@
+#vectorArt {
+	margin-top: 30px;
+	margin-left: 0;
+}
+#vectorArt img {
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+}
+
+.photoFloat:hover {
+	opacity: .4;
+}
+.linked {
+	margin: 0 auto;
+	display: inline-block;
+	
+}
+.linked > figcaption {
+	text-align: center;
+	font-style: italic;
+}
