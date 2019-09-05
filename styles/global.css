@@ -33,8 +33,11 @@ h2 {
 	margin-bottom: .25em;
 }
 
+h3 {
+	color: purple;
 }
+
 p {
-	line-height: 115%;
-	margin-right: 10px;
-}
+ 	line-height: 110%;
+ 	margin-bottom: 20px;
+ }
