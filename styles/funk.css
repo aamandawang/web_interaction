@@ -1,0 +1,91 @@
+@import url('../fonts/stylesheet.css');
+
+html {
+	background: #FFF 
+	color: #000000;
+}
+body {
+	background-color: #EDF2F7;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5%;
+}
+
+.nav {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;    
+    font-weight: bold;
+}
+
+.nav ul {
+	padding: 0;
+	list-style-type: none;
+    color: #8DA7BE;
+}
+.nav ul li{
+    display: inline;
+}
+ul li{
+    display: inline;
+    margin: .5em;
+    font-weight: bold;
+}
+
+b{
+    color:#554640;
+}
+
+a{
+    color: #8DA7BE;
+    text-decoration: none;
+}
+a:hover{
+    color: #C98CA7;    
+}
+
+h1 {
+	color: #554640;
+	margin: 0px;
+	font-size: 1.8rem;
+	font-style: normal;
+    text-align: center;
+}
+.about {
+    margin-top: 5em;
+    height: 290px;
+    
+}
+h2 {
+	color: #707078;
+	font-size: 1.2rem;
+	margin-top: 0em;
+    text-align: left;
+}
+h3{
+   	color: #707078;
+	font-size: 1em;
+	margin-top: 1.2em;
+    text-align: left; 
+    margin-left: 12px;
+}
+
+img {
+    float: left;
+    margin-right: 25px;
+    margin-left: 12px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+ 	line-height: 140%;
+ 	margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 1em;
+ }

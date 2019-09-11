@@ -1,0 +1,95 @@
+@import url('../fonts/stylesheet.css');
+
+html {
+	background: #FFF 
+	color: #000000;
+}
+body {
+	background-color: #EDF2F7;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5%;
+}
+.nav0{
+    text-align: center;
+    margin-top: 10px; 
+    font-weight: bold;
+}
+.nav {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 25%;    
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 28%;
+}
+
+.nav ul {
+	margin: 10;
+	padding: 0;
+	list-style-type: none;
+    padding: 14px 50px;
+    color: #8DA7BE;
+}
+
+ul li{
+    margin: .5em;
+    font-weight: bold;
+}
+.nav2{
+    text-align: center;
+    margin-bottom: 10px;   
+    font-weight: bold;
+    width: -25%;
+    font-weight: bold;
+    display: inline-block;
+}
+.nav2 ul {
+	margin: 10;
+	padding: 0;
+	list-style-type: none;
+    padding: 14px 50px;
+    color: #8DA7BE;
+}
+
+b{
+    color:#554640;
+    font-size: 1.5em;
+}
+
+a{
+    color: #8DA7BE;
+    text-decoration: none;
+}
+a:hover{
+    color: #C98CA7;
+}
+
+h1 {
+	color: #554640;
+	margin: 0px;
+	font-size: 1.8em;
+	font-style: normal;
+    text-align: center;
+}
+h2 {
+	color: #707078;
+	font-size: 1.2rem;
+	margin-bottom: .25em;
+    text-align: center;
+}
+
+h3 {
+	color: purple;
+}
+
+p {
+ 	line-height: 120%;
+ 	margin-bottom: 20px;
+    text-align: center;
+ }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
