@@ -5,8 +5,8 @@ html {
 	color: #000000;
 }
 body {
-	background-color: #EDF2F7;
-    font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+    font-family: 'Righteous','Josefin Sans', sans-serif;
     margin-top: 5%;
 }
 .nav0{
@@ -14,13 +14,16 @@ body {
     margin-top: 10px; 
     font-weight: bold;
 }
+.container{
+    height: 200px;
+    text-align: center;
+}
 .nav {
     text-align: center;
     margin-bottom: 10px;
     width: 25%;    
     font-weight: bold;
     display: inline-block;
-    margin-left: 28%;
 }
 
 .nav ul {
@@ -28,7 +31,7 @@ body {
 	padding: 0;
 	list-style-type: none;
     padding: 14px 50px;
-    color: #8DA7BE;
+    color: #97CC04;
 }
 
 ul li{
@@ -37,18 +40,18 @@ ul li{
 }
 .nav2{
     text-align: center;
+    width: 25%;
     margin-bottom: 10px;   
     font-weight: bold;
-    width: -25%;
     font-weight: bold;
     display: inline-block;
 }
 .nav2 ul {
-	margin: 10;
+/*	margin: 10;*/
 	padding: 0;
 	list-style-type: none;
     padding: 14px 50px;
-    color: #8DA7BE;
+    color: #97CC04;
 }
 
 b{
@@ -57,15 +60,15 @@ b{
 }
 
 a{
-    color: #8DA7BE;
+    color: #97CC04;
     text-decoration: none;
 }
 a:hover{
-    color: #C98CA7;
+    color: cadetblue;
 }
 
 h1 {
-	color: #554640;
+	color: #97CC04;
 	margin: 0px;
 	font-size: 1.8em;
 	font-style: normal;
@@ -92,4 +95,17 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .nav, .nav2 {
+        font-size: 12px;
+        letter-spacing: 0px;
+        text-align: center;
+        display: inline;
+        margin-bottom: 0px;
+    }
+    .container{
+        height: 300px;
+    }
 }
