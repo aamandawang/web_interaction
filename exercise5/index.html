@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amanda Wang's Class Site</title>
+        <meta> <charset="utf-8"></charset>
+		<link rel="stylesheet" type="text/css" href="styles/global.css">
+        <style>
+          @import url('https://fonts.googleapis.com/css?family=Amaranth:700i|Be+Vietnam|Notable&display=swap');
+            #container{
+                top: 20px;
+                width: 30%;
+                height:200px;
+                margin: 0 auto;
+                text-align: center;
+/*                background-color: #8DB1AB;*/
+            }
+        </style>
+        
+	</head>
+	
+	<body>
+		
+        <div class="nav">
+            <a href="../index.html"><b>class site</b></a>
+        </div>
+    
+<!--        <img src="images/egg.png" alt="egg">-->
+        <p id="text">aamandawang</p>
+ 
+            <div id="container">
+                
+                <label class="hide">
+               <input type="checkbox" checked="checked" id="show" onclick="showFunction()"> Hide
+                <span class="checkmark"></span>
+                </label>
+                
+                Color:
+                <input type="color" id="colorChoice">
+                
+                <select id="fonts" onchange="fontFunction()">
+                    <option value="Amaranth"> Amaranth</option>
+                    <option value="Notable">Notable</option>
+                    <option value="Futura">Futura</option>
+                </select>   
+                
+                <div class="opacity">
+                    <input id="slider" type="range" min="0" max="50" value="25">
+                </div>
+            </div>
+
+
+	</body>
+      <script src="js/jquery.js"></script>
+      <script src="js/scripts.js"></script> 
+	
+</html>
