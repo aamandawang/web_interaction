@@ -1,0 +1,166 @@
+@import url('../fonts/stylesheet.css');
+            
+html{
+    cursor: url(../images/cursor.cur),auto;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jomolhari', serif;
+    background-color: #e8e6e3;
+}
+
+.half{
+    height: 100vh;
+    width: 50%;
+    background-size: 100%;
+    margin: 0;
+    float: left;
+}
+
+#refresh{
+    position: relative;
+    left: 45vw;
+    bottom: 20vh;
+    color: #000000;
+    text-decoration: none;
+}
+a#refresh:hover{
+    color: #00b6d6;
+    cursor: url(../images/cursor2.cur),auto;
+}
+#ref{
+    text-decoration: none;
+    position: relative;
+    left: -55vw;
+    top: 5vh;
+    color: #000000;
+}
+a#ref:hover{
+    color: #00b6d6;
+    cursor: url(../images/cursor2.cur),auto;
+}
+#logo{
+    top: -10vh;
+    left: 38vw;
+    position: absolute;
+}
+
+.line1{
+    position: absolute;
+    margin: 0 auto;
+    left: 40vw;
+    top: 30vh;
+}
+.line2{
+    position: absolute;
+    margin: 0 auto;
+    left: 40vw;
+    top: 35vh;
+}
+.line3{
+    position: absolute;
+    margin: 0 auto;
+    left: 40vw;
+    top: 40vh;
+}
+.line4{
+    position: absolute;
+    margin: 0 auto;
+    left: 40vw;
+    top: 50vh;
+}
+.line5{
+    position: absolute;
+    margin: 0 auto;
+    left: 40vw;
+    top: 55vh;
+}
+.line6{
+    position: absolute;
+    margin: 0 auto;
+    left: 40vw;
+    top: 60vh;
+}
+
+.paak{
+    height: 100vh;
+    width: 20%;
+    background-size: 100%;
+    margin: 0;
+    float: left;
+    margin-left: 20vw;
+} 
+.nao{
+    height: 100vh;
+    width: 20%;
+    background-size: 100%;
+    margin: 0;
+    float: right;
+    margin-right: 20vw;
+} 
+li{
+    list-style-type: circle;
+}
+#about{
+    position: absolute;
+    top: 60vh;
+    left: 20vw;
+    width: 550px;
+}
+#loveme{
+    text-decoration: none;
+    position: relative;
+    display: inline;
+    left: 30vw;
+    top: 5vh;
+    color: #000000;    
+}
+
+
+
+/*for phones*/
+
+@media only screen and (max-width: 600px){
+   #logo{
+    top: -12vh;
+    left: 25vw;
+    position: absolute;
+}
+    #ref{
+    font-size: .5em;
+    left: -60vw;
+}
+    #loveme{
+    font-size: .5em;
+    }
+    #refresh{
+        left: 40vw;                    
+    }
+    .line1{
+        left: 30vw; 
+        top: 25vh;
+    }
+    .line2{
+        left: 30vw; 
+        top: 30vh;
+    } 
+    .line3{
+        left: 30vw; 
+        top: 35vh;
+    }
+    .line4{
+        left: 30vw; 
+        top: 60vh;
+    }
+    .line5{
+        left: 30vw; 
+        top: 65vh;
+    }
+    .line6{
+        left: 30vw; 
+        top: 70vh;
+    }
+}
