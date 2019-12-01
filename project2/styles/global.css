@@ -62,7 +62,7 @@ p {
 /*    opacity: 10%;*/
     transition: .5s ease;
 }
-p:hover{
+p:active{
 /*    transform: rotate(360deg);*/
     text-transform: lowercase;
 }
