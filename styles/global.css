@@ -12,7 +12,6 @@ body {
 }
 .nav0{
     text-align: center;
-    margin-top: 10px; 
     font-weight: bold;
 }
 .container{
@@ -33,7 +32,7 @@ body {
 }
 
 ul li{
-    margin: .5em;
+    margin: .2em;
     font-weight: bold;
     font-size: 1em;
 }
@@ -44,12 +43,10 @@ ul li{
     flex-direction: row;
 }
 .nav2 ul {
-	margin: 10;
 	padding: 0;
 	list-style-type: none;
     padding: 20px 50px;
     color: #97CC04;
-    text-align: left;
 }
 
 b{
@@ -96,15 +93,28 @@ p {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 600px){
-    .nav, .nav2 {
-        font-size: 20px;
-        letter-spacing: 0px;
-        text-align: center;
-        display: inline;
-        position: relative;
-    }
-    .container{
-        height: 300px;
-    }
+@media only screen and (max-width: 800px){
+
+.container{
+    width: 100%;
+    font-size: 1.2em;
 }
+.nav0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ul{
+	padding: 0;
+	list-style-type: none;
+    color: black;
+    text-align: center;
+    margin-left: 2vw;
+}
+.nav2 ul{
+	padding: 0;
+	list-style-type: none;
+    color: black;
+    text-align: center;
+    margin-left: 35vw;
+} 
