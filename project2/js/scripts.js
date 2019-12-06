@@ -3,6 +3,7 @@ $("#fadeup").click(function(){
     
 })
 
+\
 
 //$(document).scroll(function(){
 //  var scrollP = $(document).scrollTop();
@@ -14,12 +15,12 @@ $("#fadeup").click(function(){
 //    if (scrollP > 0) {
 //        $('p').css('opacity', '1');
 //    }
-//    
-//
+    
+
 //var scrollCSS = scrollP/10 + "px"
 //
 //    $('p').css('font-size', scrollCSS);
-//})
+})
 
 
 
