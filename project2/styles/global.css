@@ -26,7 +26,7 @@ h2{
 }
 
 p {
-    transform: rotateX(40deg) rotateY(30deg) scale(.9);
+    transform: rotateX(-40deg) rotateY(10deg) scale(.7);
 /*    transition: transform 1s;*/
     color: #F7FFF7;
     font-size: 1em;
