@@ -25,25 +25,8 @@ h2{
     margin: 0 20px 10px 20px;
 }
 
-#fadeup{
-    animation-name: fadeOutUp;
-    animation-duration: 1s;
-    animation-play-state: paused;
-}
-@keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-
 p {
-/*    transform: rotateX(35deg) rotateY(40deg) scale(.9);*/
+    transform: rotateX(40deg) rotateY(30deg) scale(.9);
 /*    transition: transform 1s;*/
     color: #F7FFF7;
     font-size: 1em;
@@ -52,7 +35,7 @@ p {
 /*    transition: .5s ease;*/
 }
 p:hover{
-/*    transform: rotate(360deg);*/
+    transform: rotate(360deg);
     text-transform: lowercase;
 }
 
