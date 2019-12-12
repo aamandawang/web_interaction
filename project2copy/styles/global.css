@@ -2,7 +2,10 @@
 @font-face {
   font-family: myFirstFont;
   src: url(../fonts/brands-regular-webfont.woff);
-}            
+}      
+html{
+    
+}
 
 body {
   height: 5450px; 
