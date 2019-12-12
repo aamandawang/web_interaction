@@ -5,7 +5,7 @@
 }            
 
 body {
-/*  height: 5000px; */
+  height: 5450px; 
     width: 100vw;
     background-color: #6E8387;
     font-family: myFirstFont;
@@ -42,15 +42,15 @@ h1{
 /*    text-shadow: 6px 0 #dddddd  , 0 1px #FCFAFA, 4px 0 #dddddd, 0 0px #FCFAFA;*/
 }
 #more{
-    margin: 0 auto 0 80vw;
+    margin: 0 auto 0 75vw;
     color: grey;
     position: fixed;
     bottom: 5vh;
     font-size: 1.5em;
 /*    background-color: #EED7C5;*/
-    width: 70px;
-    height: 35px;
-    box-shadow: 0px 1.3px 2.3px #526266;
+    width: 90px;
+    height: 40px;
+    box-shadow: 0px 2.5px 3px #526266;
     border-radius: 60px;
 }
 
